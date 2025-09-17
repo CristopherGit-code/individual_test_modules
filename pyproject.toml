@@ -1,0 +1,14 @@
+[project]
+name = "individual-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "langfuse>=3.2.1",
+    "oci>=2.157.0",
+    "openai>=1.98.0",
+]
