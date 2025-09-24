@@ -9,7 +9,7 @@ logger = logging.getLogger(name=f"Agent.{__name__}")
 langfuse = Langfuse(
     public_key="pk-", # Your keys
     secret_key="sk-",
-    host="https://apps.research-lab.ugbu.oraclepdemos.com/langfuse"
+    host="https://your-cloud-endpoint"
 )
 
 langfuse_handler = CallbackHandler()
